@@ -1,0 +1,61 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+.birds {
+  background-image: url("images/bird-7.jpg");
+  background-position: top center;
+  background-size: cover;
+  height: 700px;
+  clip-path: polygon(50% 0%, 100% 0, 93% 82%, 2% 100%, 0 0);
+}
+
+.birds h1 {
+  color: white;
+  font-size: 100px;
+  text-align: center;
+  padding-top: 30px;
+  word-spacing: 30px;
+  letter-spacing: 20px;
+}
+
+.article,
+#birds-type {
+  width: 70%;
+  font-size: 20px;
+  margin: 20px auto;
+  /* border: 20px solid brown; */
+  padding: 60px;
+  /* background-color: tomato; */
+  text-align: justify;
+}
+
+.article h2,
+#birds-type h2 {
+  text-align: center;
+
+  border-bottom: 2px;
+  border-style: solid;
+  border-color: rgb(196, 175, 175);
+  border-right: 0px;
+  border-left: 0px;
+  border-top: 0px;
+  margin-bottom: 50px;
+  padding-bottom: 20px;
+}
+
+.birds-images {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.birds-images div {
+  min-width: 300px;
+}
+.birds-images img {
+  width: 100%;
+  height: 100%;
+}
